@@ -414,7 +414,7 @@ std::ostream& operator<<(std::ostream &out, const linear_combination<FieldT> &lc
     for (const linear_term<FieldT>& lt : lc.terms)
     {
         out << lt.index << "\n";
-        out << lt.coeff << OUTPUT_NEWLINE;
+        out << lt.coeff << "\n";
     }
 
     return out;

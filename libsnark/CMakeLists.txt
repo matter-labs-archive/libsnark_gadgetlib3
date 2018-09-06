@@ -35,6 +35,8 @@ add_library(
   gadgetlib2/pp.cpp
   gadgetlib2/protoboard.cpp
   gadgetlib2/variable.cpp
+  gadgetlib3/sources/gadget.cpp
+  gadgetlib3/sources/hasher.cpp
   relations/circuit_satisfaction_problems/tbcs/tbcs.cpp
   relations/ram_computations/memory/memory_store_trace.cpp
   relations/ram_computations/memory/ra_memory.cpp
@@ -676,6 +678,19 @@ target_link_libraries(
   snark
 )
 
+add_executable(
+        test_gadgetlib3
+        EXCLUDE_FROM_ALL
+
+        gadgetlib3/tests/tests.cpp
+)
+
+target_link_libraries(
+        test_gadgetlib3
+
+        snark
+)
+
 include(CTest)
 add_test(
   NAME common_routing_algorithms_test
@@ -769,6 +784,10 @@ add_test(
   NAME test_sha256_gadget
   COMMAND test_sha256_gadget
 )
+add_test(
+        NAME test_gadgetlib3
+        COMMAND test_gadgetlib3
+)
 
 add_dependencies(check common_routing_algorithms_test)
 add_dependencies(check gadgetlib1_simple_test)
@@ -793,6 +812,7 @@ add_dependencies(check test_knapsack_gadget)
 add_dependencies(check test_merkle_tree_gadgets)
 add_dependencies(check test_set_commitment_gadget)
 add_dependencies(check test_sha256_gadget)
+add_dependencies(check test_gadgetlib3)
 
 # TODO (howardwu): Resolve runtime on targets:
 # gadgetlib1_fooram_test, zk_proof_systems_r1cs_mp_ppzkpcd_test, zk_proof_systems_r1cs_sp_ppzkpcd_test, zk_proof_systems_ram_zksnark_test
