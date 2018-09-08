@@ -27,7 +27,6 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
-					<Add option="-DBINARY_OUTPUT"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -60,7 +59,6 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
-					<Add option="-DBINARY_OUTPUT"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -93,7 +91,6 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
-					<Add option="-DBINARY_OUTPUT"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -126,7 +123,6 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
-					<Add option="-DBINARY_OUTPUT"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>

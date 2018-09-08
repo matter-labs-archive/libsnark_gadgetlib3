@@ -13,12 +13,13 @@
 #include <libsnark/gadgetlib3/include/example.hpp>
 #include <libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp>
 
-#define KEYPAIR_FILE "snark-keypair"
-#define PROVER_INPUT_FILE "snark-prover-input"
-#define PROOF_FILE "snark-prove-file"
+#define KEYPAIR_FILE "snark-keypair.txt"
+#define PROVER_INPUT_FILE "snark-prover-input.txt"
+#define PROOF_FILE "snark-prove-file.txt"
 
 using curve = libff::bn128_pp;
 using base_field = libff::Fr<curve>;
+using field = gadgetlib::Field<base_field>;
 using namespace gadgetlib;
 
 gadget generate_circuit()
@@ -46,14 +47,14 @@ void generate_keypair()
     const bool test_serialization = false;
 
     gadget circuit = generate_circuit();
-    auto pboard = protoboard<base_field>();
+    auto pboard = protoboard<field>();
     auto annealing = engraver();
     annealing.incorporate_gadget(pboard, circuit);
 
     libsnark::r1cs_example<base_field> example = gen_r1cs_example_from_protoboard(pboard);
 
     auto keypair =
-            libsnark::r1cs_ppzksnark_generator(example.constraint_system);
+            libsnark::r1cs_ppzksnark_generator<curve>(example.constraint_system);
 
     std::ofstream outputFile(KEYPAIR_FILE);
     if (outputFile)
@@ -85,9 +86,10 @@ void generate_proof()
         abort();
     }
 
-    /*libff::print_header("R1CS GG-ppzkSNARK Prover");
     r1cs_gg_ppzksnark_proof<ppT> proof = r1cs_gg_ppzksnark_prover<ppT>(keypair.pk, example.primary_input, example.auxiliary_input);
     printf("\n"); libff::print_indent(); libff::print_mem("after prover");*/
+
+    libff::print_header("proof generation was successful");
 
 }
 
@@ -105,13 +107,14 @@ int main(int argc, char* argv[])
 
     if (!check_if_file_exists(KEYPAIR_FILE))
     {
-        std::cout << "No keyfile for battleship game found in current directory. Generate? (y/n)\n"
+        std::cout << "No keyfile for battleship game found in current directory. Generate? (y/n)\n";
         auto choice = getchar();
+        getchar();
         if (choice == 'y')
             generate_keypair();
         else
         {
-            std::cout << "Exiting ....\n"
+            std::cout << "Exiting ....\n";
             exit(1);
         }
     }
@@ -120,6 +123,7 @@ int main(int argc, char* argv[])
     std::cout << "1 - Generate new proof (you need snark-prover-input input for this)\n";
     std::cout << "2 - Validate proof\n";
     auto choice = getchar();
+    getchar();
     if (choice == '1')
         generate_proof();
     else if (choice == '2')
@@ -129,6 +133,6 @@ int main(int argc, char* argv[])
         std::cout << "Unrecognized choice. Sorry";
     }
 
-    std::cout << "Exiting ....\n"
+    std::cout << "Exiting ....\n";
     exit(1);
 }

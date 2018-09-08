@@ -33,7 +33,6 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "BINARY_OUTPUT"
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "DEBUG=1"
@@ -100,7 +99,6 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
-  "BINARY_OUTPUT"
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "DEBUG=1"

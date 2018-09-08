@@ -27,15 +27,7 @@
 using namespace gadgetlib;
 
 
-const mp_size_t edwards_r_bitcount = 181;
-const mp_size_t edwards_r_limbs = (edwards_r_bitcount + GMP_NUMB_BITS - 1) / GMP_NUMB_BITS;
-libff::bigint<edwards_r_limbs> edwards_modulus_r("1552511030102430251236801561344621993261920897571225601");
-
-const mp_size_t mnt46_A_bitcount = 298;
-const mp_size_t mnt46_A_limbs = (mnt46_A_bitcount+GMP_NUMB_BITS-1)/GMP_NUMB_BITS;
-libff::bigint<mnt46_A_limbs> mnt_modulus_r("475922286169261325753349249653048451545124878552823515553267735739164647307408490559963137");
-
-using field = Field<mnt46_A_limbs, mnt_modulus_r>;
+using field = Field<libff::Fr<libff::mnt4_pp>>;
 //using field = Field<edwards_r_limbs, edwards_modulus_r>;
 
 void check(const gadget& gadget)

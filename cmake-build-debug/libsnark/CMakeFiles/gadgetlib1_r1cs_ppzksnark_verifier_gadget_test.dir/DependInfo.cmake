@@ -10,7 +10,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "BINARY_OUTPUT"
   "BN_SUPPORT_SNARK=1"
   "CURVE_BN128"
   "DEBUG=1"

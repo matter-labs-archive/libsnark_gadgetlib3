@@ -16,6 +16,7 @@ namespace gadgetlib
     {
     public:
         using Field_Rep = base_field;
+        static constexpr size_t safe_bitsize = 200;
         Field_Rep num_;
 
         Field_Rep elem_from_str(const std::string& hexVal)
@@ -157,46 +158,46 @@ namespace gadgetlib
         }
     };
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    Field<n, modulus> operator+(const Field<n, modulus>& left,
-                                     const Field<n, modulus>& right)
+    template<typename base_field>
+    Field<base_field> operator+(const Field<base_field>& left,
+                                     const Field<base_field>& right)
     {
-        typename Field<n, modulus>::Field_Rep x = left.num_;
+        typename Field<base_field>::Field_Rep x = left.num_;
         x += right.num_;
-        return Field<n, modulus>(x);
+        return Field<base_field>(x);
     }
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    Field<n, modulus> operator-(const Field<n, modulus>& left,
-                                     const Field<n, modulus>& right)
+    template<typename base_field>
+    Field<base_field> operator-(const Field<base_field>& left,
+                                     const Field<base_field>& right)
     {
-        return Field<n, modulus>(left.num_ - right.num_);
+        return Field<base_field>(left.num_ - right.num_);
     }
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    Field<n, modulus> operator*(const Field<n, modulus>& left,
-                                     const Field<n, modulus>& right)
+    template<typename base_field>
+    Field<base_field> operator*(const Field<base_field>& left,
+                                     const Field<base_field>& right)
     {
-        return Field<n, modulus>(left.num_ * right.num_);
+        return Field<base_field>(left.num_ * right.num_);
     }
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    bool operator==(const Field<n, modulus>& left,
-                    const Field<n, modulus>& right)
+    template<typename base_field>
+    bool operator==(const Field<base_field>& left,
+                    const Field<base_field>& right)
     {
         return (left.num_ == right.num_);
     }
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    bool operator!=(const Field<n, modulus>& left,
-                    const Field<n, modulus>& right)
+    template<typename base_field>
+    bool operator!=(const Field<base_field>& left,
+                    const Field<base_field>& right)
     {
         return (left.num_ != right.num_);
     }
 
 
-    template<mp_size_t n, const libff::bigint<n>& modulus>
-    std::ostream& operator<< (std::ostream& stream, const Field<n, modulus>& elem)
+    template<typename base_field>
+    std::ostream& operator<< (std::ostream& stream, const Field<base_field>& elem)
     {
         stream << elem.num_;
         return stream;

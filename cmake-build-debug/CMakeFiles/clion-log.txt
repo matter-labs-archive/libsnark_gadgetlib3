@@ -1,20 +1,36 @@
-/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DDEBUG=ON -DCPPDEBUG=ON -DMONTGOMERY_OUTPUT=OFF -G "CodeBlocks - Unix Makefiles" /home/k/CLionProjects/libsnark
-CMake Warning (dev) at CMakeLists.txt:3 (project):
-  Policy CMP0048 is not set: project() command manages VERSION variables.
-  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
-  command to set the policy and suppress this warning.
-
-  The following variable(s) would be set to empty:
-
-    CMAKE_PROJECT_VERSION
-    CMAKE_PROJECT_VERSION_MAJOR
-    CMAKE_PROJECT_VERSION_MINOR
-    CMAKE_PROJECT_VERSION_PATCH
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
+/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DDEBUG=ON -DCPPDEBUG=ON -DMONTGOMERY_OUTPUT=OFF -DBINARY_OUTPUT=OFF -G "CodeBlocks - Unix Makefiles" /home/k/CLionProjects/libsnark
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'libcrypto'
+--   Found libcrypto, version 1.0.2g
+-- Checking for module 'libprocps'
+--   Found libprocps, version 3.3.10
 -- Boost version: 1.58.0
 -- Found the following Boost libraries:
 --   program_options
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
 -- GMP: /usr/lib/x86_64-linux-gnu/libgmp.so, /usr/include/x86_64-linux-gnu
 -- Configuring done
 -- Generating done

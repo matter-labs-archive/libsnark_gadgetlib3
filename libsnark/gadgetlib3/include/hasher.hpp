@@ -25,10 +25,10 @@ namespace hash_routines
         }
     };
 
-    template<mp_size_t n, const libff::bigint<n>& modulus, typename LONGINT>
+    template<typename base_field, typename LONGINT>
     struct MimcHash
     {
-        using HASH_DIGEST_TYPE = gadgetlib::Field<n, modulus>;
+        using HASH_DIGEST_TYPE = gadgetlib::Field<base_field>;
         static HASH_DIGEST_TYPE hash_leaf(LONGINT val)
         {
             return MIMC(val, 0);

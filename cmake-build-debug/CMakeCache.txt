@@ -16,7 +16,7 @@
 
 //In serialization, output raw binary data (instead of decimal),
 // which is smaller and faster.
-BINARY_OUTPUT:BOOL=ON
+BINARY_OUTPUT:BOOL=OFF
 
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
