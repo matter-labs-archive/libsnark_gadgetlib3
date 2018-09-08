@@ -22,10 +22,10 @@ using base_field = libff::Fr<curve>;
 using field = gadgetlib::Field<base_field>;
 using namespace gadgetlib;
 
-gadget generate_circuit()
+gadget generate_circuit(uint32_t a, uint32_t b)
 {
-    gadget input_raw(0x12345678, 32, false);
-    gadget result_raw(0xf0e21567, 32, true);
+    gadget input_raw(a, 32, false);
+    gadget result_raw(b, 32, true);
     gadget const_gadget_raw(0xdeadbeef, 32);
 
     gadget input =TO_FIELD(input_raw);
@@ -42,16 +42,22 @@ inline bool check_if_file_exists(const std::string& filename)
     return (stat(filename.c_str(), &buffer) == 0);
 }
 
-void generate_keypair()
+libsnark::r1cs_example<base_field> generate_r1cs_example(uint32_t input = 0x12345678, uint32_t result = 0xf0e21567)
 {
     const bool test_serialization = false;
 
-    gadget circuit = generate_circuit();
+    gadget circuit = generate_circuit(input, result);
     auto pboard = protoboard<field>();
     auto annealing = engraver();
     annealing.incorporate_gadget(pboard, circuit);
 
     libsnark::r1cs_example<base_field> example = gen_r1cs_example_from_protoboard(pboard);
+    return example;
+}
+
+void generate_keypair()
+{
+    libsnark::r1cs_example<base_field> example = generate_r1cs_example();
 
     auto keypair =
             libsnark::r1cs_ppzksnark_generator<curve>(example.constraint_system);
@@ -71,7 +77,7 @@ void generate_keypair()
     libff::print_header("Key generation was successful");
 }
 
-void generate_proof()
+libsnark::r1cs_ppzksnark_keypair<curve> load_keypair()
 {
     libsnark::r1cs_ppzksnark_keypair<curve> keypair;
     std::ifstream key_file(KEYPAIR_FILE);
@@ -85,9 +91,29 @@ void generate_proof()
         std::cerr << "Aborting ..." << std::endl;
         abort();
     }
+    return keypair;
+}
 
-    r1cs_gg_ppzksnark_proof<ppT> proof = r1cs_gg_ppzksnark_prover<ppT>(keypair.pk, example.primary_input, example.auxiliary_input);
-    printf("\n"); libff::print_indent(); libff::print_mem("after prover");*/
+void generate_proof()
+{
+    libsnark::r1cs_ppzksnark_keypair<curve> keypair = load_keypair();
+
+    libsnark::r1cs_example<base_field> example = generate_r1cs_example();
+
+    libsnark::r1cs_ppzksnark_proof<curve> proof =
+            libsnark::r1cs_ppzksnark_prover<curve>(keypair.pk, example.primary_input, example.auxiliary_input);
+
+    std::ofstream proof_file(PROOF_FILE);
+    if (proof_file)
+    {
+        proof_file << proof;
+    }
+    else
+    {
+        std::cerr << "Failure opening " << PROOF_FILE << '\n';
+        std::cerr << "Aborting ..." << std::endl;
+        abort();
+    }
 
     libff::print_header("proof generation was successful");
 
@@ -95,7 +121,32 @@ void generate_proof()
 
 void validate_proof()
 {
+    libsnark::r1cs_ppzksnark_keypair<curve> keypair = load_keypair();
+    libsnark::r1cs_ppzksnark_proof<curve> proof;
+    libsnark::r1cs_example<base_field> example = generate_r1cs_example();
+    std::ifstream proof_file(PROOF_FILE);
+    if (proof_file)
+    {
+        proof_file >> proof;
+    }
+    else
+    {
+        std::cerr << "Failure opening " << PROOF_FILE << '\n';
+        std::cerr << "Aborting ..." << std::endl;
+        abort();
+    }
 
+    const bool ans = libsnark::r1cs_ppzksnark_verifier_strong_IC<curve>(keypair.vk, example.primary_input, proof);
+    printf("* The verification result is: %s\n", (ans ? "PASS" : "FAIL"));
+
+    libff::print_header("proof validation was successful");
+}
+
+void self_chech()
+{
+    generate_keypair();
+    generate_proof();
+    validate_proof();
 }
 
 

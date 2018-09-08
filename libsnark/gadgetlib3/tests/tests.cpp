@@ -347,7 +347,7 @@ int main(int argc, char* argv[])
 {
     libff::edwards_pp::init_public_params();
     libff::mnt4_pp::init_public_params();
-    construct_proof();
-    //test_all();
+    //construct_proof();
+    test_all();
     //getchar();
 }
