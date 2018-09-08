@@ -101,154 +101,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c0ff01-dd88-47e5-a96c-2a457b808f01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/snark_supercop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/snark_supercop.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/snark_supercop.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/snark_supercop.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/zm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/zm.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/zm.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/CMakeFiles/zm.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gmock.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googlemock/gtest/gtest.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/gtest/googletest-distribution.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/ff.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/ff.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/multiexp_profile.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/multiexp_profile.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/multiexp_profile.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libff/libff/CMakeFiles/multiexp_profile.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/libfqfft.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/libfqfft.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/common_routing_algorithms_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/common_routing_algorithms_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/common_routing_algorithms_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/common_routing_algorithms_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/console_app.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_arithmetization.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_arithmetization.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_arithmetization.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_arithmetization.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_r1cs_ppzkadsnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_r1cs_ppzkadsnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_r1cs_ppzkadsnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_r1cs_ppzkadsnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_generator.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_prover.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/demo_ram_ppzksnark_verifier.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_fooram_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_r1cs_ppzksnark_verifier_gadget_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_simple_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_adapters_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_constraint_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_gadget_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_integration_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_protoboard_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/gadgetlib2_variable_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_bacs_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_gg_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_mp_ppzkpcd.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_se_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_r1cs_sp_ppzkpcd.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_zksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_zksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_zksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_ram_zksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_algorithms.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_algorithms.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_algorithms.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_algorithms.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_gadgets.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_gadgets.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_gadgets.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_routing_gadgets.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_tbcs_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/profile_uscs_ppzksnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_qap_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_qap_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_qap_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_qap_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_sap_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_sap_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_sap_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_sap_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_ssp_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_ssp_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_ssp_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/relations_ssp_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark_adsnark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark_adsnark.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark_adsnark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/snark_adsnark.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_gadgetlib3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_gadgetlib3.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_gadgetlib3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_gadgetlib3.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_knapsack_gadget.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_knapsack_gadget.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_knapsack_gadget.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_knapsack_gadget.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_sha256_gadget.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_sha256_gadget.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_sha256_gadget.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/test_sha256_gadget.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_bacs_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_gg_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_mp_ppzkpcd_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_se_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_r1cs_sp_ppzkpcd_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_ram_zksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_uscs_ppzksnark_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/console_app" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/console_app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/snark-keypair.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/snark-prove-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/battleship" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/battleship" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/pk_key.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/pk_key.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/proof.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/proof.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libsnark/vk_key.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libsnark/vk_key.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/depends/libff" beforeDir="false" afterPath="$PROJECT_DIR$/depends/libff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/depends/libff/libff/algebra/fields/bigint.tcc" beforeDir="false" afterPath="$PROJECT_DIR$/depends/libff/libff/algebra/fields/bigint.tcc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsnark/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/include/basic_gadgets.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/include/basic_gadgets.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/include/example.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/include/example.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/console_app.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/console_app.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/libsnark/gadgetlib3/tests/tests.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -293,7 +153,7 @@
         <counts>
           <entry key="cpp" value="34" />
           <entry key="h" value="14" />
-          <entry key="hpp" value="105" />
+          <entry key="hpp" value="106" />
           <entry key="ostream" value="3" />
           <entry key="properties" value="1" />
           <entry key="snark (disassembly)" value="3" />
@@ -307,7 +167,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="18" />
           <entry key="Disassembly" value="14" />
-          <entry key="ObjectiveC" value="184" />
+          <entry key="ObjectiveC" value="185" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -315,13 +175,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="340" />
-          <entry key="ObjectiveC" value="10279" />
+          <entry key="ObjectiveC" value="10604" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5784" />
-          <entry key="hpp" value="4436" />
+          <entry key="cpp" value="6104" />
+          <entry key="hpp" value="4441" />
           <entry key="tcc" value="59" />
           <entry key="txt" value="340" />
         </counts>
@@ -330,11 +190,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="226" column="41" lean-forward="true" selection-start-line="226" selection-start-column="41" selection-end-line="226" selection-end-column="41" />
+            <state relative-caret-position="329">
+              <caret line="233" selection-start-line="233" selection-end-line="233" />
             </state>
           </provider>
         </entry>
@@ -342,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/tests/tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="437" column="4" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
+            <state relative-caret-position="520">
+              <caret line="437" column="6" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
               <folding>
                 <element signature="e#322#376#0" expanded="true" />
                 <element signature="e#598#656#0" expanded="true" />
@@ -354,10 +214,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/annealing.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="287" column="77" selection-start-line="287" selection-start-column="65" selection-end-line="287" selection-end-column="77" />
+              <folding>
+                <element signature="e#47#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="72">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="e#57#85#0" expanded="true" />
                 <element signature="e#307#328#0" expanded="true" />
@@ -390,7 +262,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
@@ -402,7 +274,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/basic_gadgets.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="8151">
               <caret line="439" column="83" selection-start-line="439" selection-start-column="83" selection-end-line="439" selection-end-column="83" />
             </state>
           </provider>
@@ -413,6 +285,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>variant</find>
+      <find>safe_bitsize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -443,9 +316,9 @@
         <option value="$PROJECT_DIR$/libsnark/gadgetlib3/tests/console_app.cpp" />
         <option value="$PROJECT_DIR$/libsnark/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/libsnark/gadgetlib3/include/example.hpp" />
-        <option value="$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp" />
         <option value="$PROJECT_DIR$/libsnark/gadgetlib3/tests/tests.cpp" />
         <option value="$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp" />
+        <option value="$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp" />
       </list>
     </option>
   </component>
@@ -1121,7 +994,7 @@
     <frame x="-1" y="25" width="1922" height="901" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.17129135" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.15261473" />
       <window_info id="Structure" order="1" sideWeight="0.5015244" side_tool="true" weight="0.25987193" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1135,7 +1008,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32991013" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.07702182" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.44415918" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.29268292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1410,16 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/annealing.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
-          <folding>
-            <element signature="e#47#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/examples/run_r1cs_gg_ppzksnark.tcc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2352">
@@ -1490,23 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/basic_gadgets.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="439" column="83" selection-start-line="439" selection-start-column="83" selection-end-line="439" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/example.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-          <folding>
-            <element signature="e#59#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/tests/console_app.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1291">
@@ -1524,28 +1370,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp">
+    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/example.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="265" column="40" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="186">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
-            <element signature="e#57#85#0" expanded="true" />
-            <element signature="e#307#328#0" expanded="true" />
+            <element signature="e#59#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/tests/tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="437" column="4" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
+        <state relative-caret-position="520">
+          <caret line="437" column="6" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
           <folding>
             <element signature="e#322#376#0" expanded="true" />
             <element signature="e#598#656#0" expanded="true" />
@@ -1554,10 +1392,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/annealing.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="287" column="77" selection-start-line="287" selection-start-column="65" selection-end-line="287" selection-end-column="77" />
+          <folding>
+            <element signature="e#47#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/Field.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#57#85#0" expanded="true" />
+            <element signature="e#307#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/tests/battleship.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="226" column="41" lean-forward="true" selection-start-line="226" selection-start-column="41" selection-end-line="226" selection-end-column="41" />
+        <state relative-caret-position="329">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsnark/gadgetlib3/include/basic_gadgets.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8151">
+          <caret line="439" column="83" selection-start-line="439" selection-start-column="83" selection-end-line="439" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libsnark/zk_proof_systems/ppzksnark/r1cs_ppzksnark/r1cs_ppzksnark.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="265" column="40" selection-start-line="265" selection-start-column="4" selection-end-line="265" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,4 @@
+
 // Pinnocio is located at: r1cs_ppzksnark.hpp
 #include <iostream>
 #include <sys/stat.h>
@@ -97,13 +98,11 @@ gadget generate_circuit(const std::string& battlefield)
     BattleshipGameParams game_params{ 10, 10, 4, 3, 2, 1 };
 
     /*std::string str_to_hash = padding_formatting(battlefield);
-
     std::string hex_digest;
     //if (precompute_hash)
         picosha2::hash256_hex_string(str_to_hash, hex_digest);
     //else
         //hex_digest = hash;
-
     gadget hash_gadget(hex_digest, 256, true);*/
 
     gadget battlefield_gadget(battlefield, 10 * 10, false);

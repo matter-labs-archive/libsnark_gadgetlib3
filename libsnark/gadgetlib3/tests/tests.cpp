@@ -433,8 +433,8 @@ int main(int argc, char* argv[])
 {
     libff::edwards_pp::init_public_params();
     libff::mnt4_pp::init_public_params();
-    //construct_proof();
+    construct_proof();
     //check_battleship_game();
-    test_all();
+    //test_all();
     //getchar();
 }
