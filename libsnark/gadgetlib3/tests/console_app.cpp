@@ -5,7 +5,7 @@
 #include <string>
 #include <fstream>
 
-#include <libff/algebra/curves/bn128/bn128_pp.hpp>
+#include <libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp>
 
 #include <libsnark/gadgetlib3/include/annealing.hpp>
 #include <libsnark/gadgetlib3/include/basic_gadgets.hpp>
@@ -17,7 +17,7 @@
 #define PROVER_INPUT_FILE "snark-prover-input.txt"
 #define PROOF_FILE "snark-prove-file.txt"
 
-using curve = libff::bn128_pp;
+using curve = libff::alt_bn128_pp;
 using base_field = libff::Fr<curve>;
 using field = gadgetlib::Field<base_field>;
 using namespace gadgetlib;
@@ -35,6 +35,7 @@ gadget generate_circuit(uint32_t a, uint32_t b)
 
     return comparison;
 }
+
 
 inline bool check_if_file_exists(const std::string& filename)
 {
@@ -65,7 +66,7 @@ void generate_keypair()
     std::ofstream outputFile(KEYPAIR_FILE);
     if (outputFile)
     {
-        outputFile << keypair.pk << keypair.vk;
+        outputFile  << keypair.vk;
     }
     else
     {
@@ -153,7 +154,7 @@ void self_chech()
 
 int main(int argc, char* argv[])
 {
-    libff::bn128_pp::init_public_params();
+    libff::alt_bn128_pp::init_public_params();
     std::cout << "BATTLESHIP SNARKS MANAGER";
 
     if (!check_if_file_exists(KEYPAIR_FILE))

@@ -156,5 +156,6 @@
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/zk_proof_systems_tbcs_ppzksnark_test.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/profile_routing_algorithms.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/test_knapsack_gadget.dir
+/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/battleship.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/test_merkle_tree_gadgets.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/test_set_commitment_gadget.dir

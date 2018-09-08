@@ -703,6 +703,20 @@ target_link_libraries(
         snark
 )
 
+add_executable(
+        battleship
+
+        gadgetlib3/tests/battleship.cpp
+)
+
+target_link_libraries(
+        battleship
+
+        snark
+)
+
+
+
 include(CTest)
 add_test(
   NAME common_routing_algorithms_test

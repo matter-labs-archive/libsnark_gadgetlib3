@@ -47,11 +47,11 @@ namespace gadgetlib {
     libsnark::r1cs_example<typename FieldT::Field_Rep> gen_r1cs_example_from_protoboard(const protoboard<FieldT>& pboard)
     {
         //first we should renumerate, so that primarly input goes first
-        std::cout << "public wires:" << std::endl;
-        for(auto& wire: pboard.public_wires)
+        //std::cout << "public wires:" << std::endl;
+        /*for(auto& wire: pboard.public_wires)
         {
             std::cout << wire << std::endl;
-        }
+        }*/
 
 
         using X = typename FieldT::Field_Rep;

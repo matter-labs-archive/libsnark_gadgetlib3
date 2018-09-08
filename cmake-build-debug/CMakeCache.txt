@@ -474,10 +474,10 @@ SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 USE_ASM:BOOL=ON
 
 //Convert each element of the key pair to affine coordinates
-USE_MIXED_ADDITION:BOOL=OFF
+USE_MIXED_ADDITION:BOOL=ON
 
 //Use point compression
-USE_PT_COMPRESSION:BOOL=ON
+USE_PT_COMPRESSION:BOOL=OFF
 
 //Use procps for memory profiling
 WITH_PROCPS:BOOL=ON

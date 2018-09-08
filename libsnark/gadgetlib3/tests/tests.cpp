@@ -263,13 +263,89 @@ void check_battleship_field()
 #include <libsnark/relations/constraint_satisfaction_problems/r1cs/examples/r1cs_examples.hpp>
 #include <libsnark/zk_proof_systems/ppzksnark/r1cs_gg_ppzksnark/examples/run_r1cs_gg_ppzksnark.hpp>
 
+//104
+std::string padding_formatting(const std::string& battlefield, const std::string& salt)
+{
+    auto convert_bool_ch = [](char c) -> char
+    {
+        if (c == '0')
+            return 0;
+        if (c == '1')
+            return 1;
+        assert(false);
+    };
+
+    std::string a = battlefield.substr(1, battlefield.npos) + "0000";
+    assert(a.size() == 104);
+    std::string res(13, 'x');
+    for(unsigned i = 0; i < 13; i++)
+    {
+        char ch = 0;
+        for (unsigned j = 0; j < 8; j++)
+        {
+            ch *= 2;
+            ch += convert_bool_ch(a[8*i + j]);
+        }
+        res[i] = ch;
+    }
+
+    auto convert_hex_ch = [](char c) -> char
+    {
+        if (c >= '0' && c <= '9')
+            return (c - '0');
+        if (c >= 'a' && c <= 'f')
+            return (c - 'a' + 10);
+
+    };
+
+    assert(salt.size() == 8);
+    std::string res2(4, 'x');
+    for(unsigned i = 0; i < 4; i++)
+    {
+        char ch = convert_hex_ch(salt[2 * i]) * 0x10 + convert_hex_ch(salt[2 * i + 1]);
+        res2[i] = ch;
+    }
+
+    return res + res2;
+}
+
+void check_battleship_game()
+{
+    BattleshipGameParams game_params{ 10, 10, 4, 3, 2, 1 };
+
+    std::string valid_battlefield = "b"
+                                    "1010110000"
+                                    "0000000000"
+                                    "0110101000"
+                                    "0000101000"
+                                    "1110001000"
+                                    "0000100000"
+                                    "0100000000"
+                                    "0000000000"
+                                    "0111100000"
+                                    "0000000000";
+
+    std::string salt = "a1b2c3d4";
+
+    std::string str_to_hash = padding_formatting(valid_battlefield, salt);
+
+    std::string hex_digest;
+    picosha2::hash256_hex_string(str_to_hash, hex_digest);
+
+    gadget hash_gadget(hex_digest, 256, true);
+
+    gadget battlefield_gadget(valid_battlefield, 10 * 10, false);
+    gadget salt_gadget(salt, 32, false);
+
+    gadget comparison = check_battleship_game_setup(battlefield_gadget,  game_params, salt_gadget, hash_gadget);
+    check(comparison);
+}
+
 //here we are using Groth16
 void construct_proof()
 {
     libsnark::default_r1cs_gg_ppzksnark_pp::init_public_params();
     libff::print_header("(enter) Test R1CS GG-ppzkSNARK");
-
-    const bool test_serialization = false;
 
     BattleshipGameParams game_params{ 10, 10, 4, 3, 2, 1 };
 
@@ -285,11 +361,19 @@ void construct_proof()
                                     "0111100000"
                                     "0000000000";
 
-    std::string salt = "super_secret_salt";
+    std::string salt = "a1b2c3d4";
 
+    std::string str_to_hash = padding_formatting(valid_battlefield, salt);
 
-    gadget battlefield(valid_battlefield, 10 * 10, false);
-    gadget comparison = check_battleship_field(battlefield,  game_params);
+    std::string hex_digest;
+    picosha2::hash256_hex_string(str_to_hash, hex_digest);
+
+    gadget hash_gadget(hex_digest, 256, true);
+
+    gadget battlefield_gadget(valid_battlefield, 10 * 10, false);
+    gadget salt_gadget(salt, 32, false);
+
+    gadget comparison = check_battleship_game_setup(battlefield_gadget,  game_params, salt_gadget, hash_gadget);
 
     auto pboard = protoboard<field>();
     auto annealing = engraver();
@@ -299,7 +383,7 @@ void construct_proof()
 
     libsnark::r1cs_example<libff::Fr<libff::mnt4_pp>> example = gen_r1cs_example_from_protoboard(pboard);
 
-    const bool bit = libsnark::run_r1cs_gg_ppzksnark<libff::mnt4_pp>(example, test_serialization);
+    const bool bit = libsnark::run_r1cs_gg_ppzksnark<libff::mnt4_pp>(example, false);
     assert(bit);
 
     libff::print_header("(leave) Test R1CS GG-ppzkSNARK");
@@ -341,6 +425,8 @@ void test_all()
     check_common_prefix_mask();
     std::cout << "chech battleship field" << std::endl;
     check_battleship_field();
+    std::cout << "chech battleship game setup" << std::endl;
+    check_battleship_game();
 }
 
 int main(int argc, char* argv[])
@@ -348,6 +434,7 @@ int main(int argc, char* argv[])
     libff::edwards_pp::init_public_params();
     libff::mnt4_pp::init_public_params();
     //construct_proof();
+    //check_battleship_game();
     test_all();
     //getchar();
 }

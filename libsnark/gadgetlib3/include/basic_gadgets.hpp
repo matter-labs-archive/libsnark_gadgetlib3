@@ -437,7 +437,7 @@ namespace gadgetlib
             const gadget& salt, const gadget& commitment)
     {
         gadget check_field = check_battleship_field(battlefield, game_params);
-        gadget check_commitment = (sha256_gadget(battlefield || salt) == commitment);
+        gadget check_commitment = (sha256_gadget(battlefield || gadget(0, 4) || gadget(salt) ) == commitment);
 
         return ALL(check_field, check_commitment);
     }

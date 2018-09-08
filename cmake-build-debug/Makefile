@@ -1312,6 +1312,19 @@ test_knapsack_gadget/fast:
 .PHONY : test_knapsack_gadget/fast
 
 #=============================================================================
+# Target rules for targets named battleship
+
+# Build rule for target.
+battleship: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 battleship
+.PHONY : battleship
+
+# fast build rule for target.
+battleship/fast:
+	$(MAKE) -f libsnark/CMakeFiles/battleship.dir/build.make libsnark/CMakeFiles/battleship.dir/build
+.PHONY : battleship/fast
+
+#=============================================================================
 # Target rules for targets named test_merkle_tree_gadgets
 
 # Build rule for target.
@@ -1438,6 +1451,7 @@ help:
 	@echo "... zk_proof_systems_tbcs_ppzksnark_test"
 	@echo "... profile_routing_algorithms"
 	@echo "... test_knapsack_gadget"
+	@echo "... battleship"
 	@echo "... test_merkle_tree_gadgets"
 	@echo "... test_set_commitment_gadget"
 .PHONY : help

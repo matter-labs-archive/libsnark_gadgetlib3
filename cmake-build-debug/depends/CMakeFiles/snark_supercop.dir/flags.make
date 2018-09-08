@@ -5,13 +5,13 @@
 # compile C with /usr/bin/cc
 ASM_FLAGS = -g  
 
-ASM_DEFINES = -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DDEBUG=1 -DUSE_ASM -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC
+ASM_DEFINES = -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DDEBUG=1 -DNO_PT_COMPRESSION=1 -DUSE_ASM -DUSE_MIXED_ADDITION=1 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC
 
 ASM_INCLUDES = -I/usr/include -I/home/k/CLionProjects/libsnark/. -I/home/k/CLionProjects/libsnark/depends/ate-pairing/include -I/home/k/CLionProjects/libsnark/depends/xbyak -I/home/k/CLionProjects/libsnark/depends/libsnark-supercop/include 
 
 C_FLAGS = -g  
 
-C_DEFINES = -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DDEBUG=1 -DUSE_ASM -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC
+C_DEFINES = -DBN_SUPPORT_SNARK=1 -DCURVE_BN128 -DDEBUG=1 -DNO_PT_COMPRESSION=1 -DUSE_ASM -DUSE_MIXED_ADDITION=1 -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC
 
 C_INCLUDES = -I/home/k/CLionProjects/libsnark/. -I/home/k/CLionProjects/libsnark/depends/ate-pairing/include -I/home/k/CLionProjects/libsnark/depends/xbyak -I/home/k/CLionProjects/libsnark/depends/libsnark-supercop/include 
 

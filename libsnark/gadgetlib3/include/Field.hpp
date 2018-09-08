@@ -16,7 +16,7 @@ namespace gadgetlib
     {
     public:
         using Field_Rep = base_field;
-        static constexpr size_t safe_bitsize = 200;
+        static constexpr size_t safe_bitsize = 120;
         Field_Rep num_;
 
         Field_Rep elem_from_str(const std::string& hexVal)

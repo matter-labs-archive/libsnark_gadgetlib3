@@ -27,6 +27,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -61,6 +63,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -95,6 +99,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -129,6 +135,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -163,6 +171,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -195,6 +205,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -227,6 +239,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
@@ -259,6 +273,8 @@
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
 					<Add option="-DDEBUG=1"/>
+					<Add option="-DNO_PT_COMPRESSION=1"/>
+					<Add option="-DUSE_MIXED_ADDITION=1"/>
 					<Add option="-D_GLIBCXX_DEBUG"/>
 					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
