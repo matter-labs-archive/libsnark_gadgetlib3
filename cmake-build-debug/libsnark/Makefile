@@ -1293,6 +1293,21 @@ test_knapsack_gadget/fast:
 .PHONY : test_knapsack_gadget/fast
 
 # Convenience name for target.
+libsnark/CMakeFiles/battleship.dir/rule:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libsnark/CMakeFiles/battleship.dir/rule
+.PHONY : libsnark/CMakeFiles/battleship.dir/rule
+
+# Convenience name for target.
+battleship: libsnark/CMakeFiles/battleship.dir/rule
+
+.PHONY : battleship
+
+# fast build rule for target.
+battleship/fast:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/battleship.dir/build.make libsnark/CMakeFiles/battleship.dir/build
+.PHONY : battleship/fast
+
+# Convenience name for target.
 libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule:
 	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule
 .PHONY : libsnark/CMakeFiles/test_merkle_tree_gadgets.dir/rule
@@ -2293,6 +2308,33 @@ gadgetlib3/sources/hasher.s: gadgetlib3/sources/hasher.cpp.s
 gadgetlib3/sources/hasher.cpp.s:
 	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/snark.dir/build.make libsnark/CMakeFiles/snark.dir/gadgetlib3/sources/hasher.cpp.s
 .PHONY : gadgetlib3/sources/hasher.cpp.s
+
+gadgetlib3/tests/battleship.o: gadgetlib3/tests/battleship.cpp.o
+
+.PHONY : gadgetlib3/tests/battleship.o
+
+# target to build an object file
+gadgetlib3/tests/battleship.cpp.o:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/battleship.dir/build.make libsnark/CMakeFiles/battleship.dir/gadgetlib3/tests/battleship.cpp.o
+.PHONY : gadgetlib3/tests/battleship.cpp.o
+
+gadgetlib3/tests/battleship.i: gadgetlib3/tests/battleship.cpp.i
+
+.PHONY : gadgetlib3/tests/battleship.i
+
+# target to preprocess a source file
+gadgetlib3/tests/battleship.cpp.i:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/battleship.dir/build.make libsnark/CMakeFiles/battleship.dir/gadgetlib3/tests/battleship.cpp.i
+.PHONY : gadgetlib3/tests/battleship.cpp.i
+
+gadgetlib3/tests/battleship.s: gadgetlib3/tests/battleship.cpp.s
+
+.PHONY : gadgetlib3/tests/battleship.s
+
+# target to generate assembly for a file
+gadgetlib3/tests/battleship.cpp.s:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/battleship.dir/build.make libsnark/CMakeFiles/battleship.dir/gadgetlib3/tests/battleship.cpp.s
+.PHONY : gadgetlib3/tests/battleship.cpp.s
 
 gadgetlib3/tests/console_app.o: gadgetlib3/tests/console_app.cpp.o
 
@@ -3384,6 +3426,7 @@ help:
 	@echo "... zk_proof_systems_tbcs_ppzksnark_test"
 	@echo "... profile_routing_algorithms"
 	@echo "... test_knapsack_gadget"
+	@echo "... battleship"
 	@echo "... test_merkle_tree_gadgets"
 	@echo "... test_set_commitment_gadget"
 	@echo "... common/data_structures/integer_permutation.o"
@@ -3494,6 +3537,9 @@ help:
 	@echo "... gadgetlib3/sources/hasher.o"
 	@echo "... gadgetlib3/sources/hasher.i"
 	@echo "... gadgetlib3/sources/hasher.s"
+	@echo "... gadgetlib3/tests/battleship.o"
+	@echo "... gadgetlib3/tests/battleship.i"
+	@echo "... gadgetlib3/tests/battleship.s"
 	@echo "... gadgetlib3/tests/console_app.o"
 	@echo "... gadgetlib3/tests/console_app.i"
 	@echo "... gadgetlib3/tests/console_app.s"
