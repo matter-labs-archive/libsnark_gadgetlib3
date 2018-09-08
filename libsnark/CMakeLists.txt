@@ -691,6 +691,18 @@ target_link_libraries(
         snark
 )
 
+add_executable(
+        console_app
+
+        gadgetlib3/tests/console_app.cpp
+)
+
+target_link_libraries(
+        console_app
+
+        snark
+)
+
 include(CTest)
 add_test(
   NAME common_routing_algorithms_test
@@ -789,6 +801,11 @@ add_test(
         COMMAND test_gadgetlib3
 )
 
+add_test(
+        NAME console_app
+        COMMAND console_app
+)
+
 add_dependencies(check common_routing_algorithms_test)
 add_dependencies(check gadgetlib1_simple_test)
 add_dependencies(check gadgetlib1_r1cs_ppzksnark_verifier_gadget_test)
@@ -813,6 +830,7 @@ add_dependencies(check test_merkle_tree_gadgets)
 add_dependencies(check test_set_commitment_gadget)
 add_dependencies(check test_sha256_gadget)
 add_dependencies(check test_gadgetlib3)
+add_dependencies(check console_app)
 
 # TODO (howardwu): Resolve runtime on targets:
 # gadgetlib1_fooram_test, zk_proof_systems_r1cs_mp_ppzkpcd_test, zk_proof_systems_r1cs_sp_ppzkpcd_test, zk_proof_systems_ram_zksnark_test

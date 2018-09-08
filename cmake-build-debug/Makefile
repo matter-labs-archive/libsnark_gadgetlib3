@@ -571,6 +571,19 @@ Nightly/fast:
 .PHONY : Nightly/fast
 
 #=============================================================================
+# Target rules for targets named console_app
+
+# Build rule for target.
+console_app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 console_app
+.PHONY : console_app
+
+# fast build rule for target.
+console_app/fast:
+	$(MAKE) -f libsnark/CMakeFiles/console_app.dir/build.make libsnark/CMakeFiles/console_app.dir/build
+.PHONY : console_app/fast
+
+#=============================================================================
 # Target rules for targets named test_gadgetlib3
 
 # Build rule for target.
@@ -1368,6 +1381,7 @@ help:
 	@echo "... Continuous"
 	@echo "... ExperimentalStart"
 	@echo "... Nightly"
+	@echo "... console_app"
 	@echo "... test_gadgetlib3"
 	@echo "... gadgetlib1_simple_test"
 	@echo "... common_routing_algorithms_test"

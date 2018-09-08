@@ -28,3 +28,4 @@ add_test(test_merkle_tree_gadgets "/home/k/CLionProjects/libsnark/cmake-build-de
 add_test(test_set_commitment_gadget "/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/test_set_commitment_gadget")
 add_test(test_sha256_gadget "/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/test_sha256_gadget")
 add_test(test_gadgetlib3 "/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/test_gadgetlib3")
+add_test(console_app "/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/console_app")

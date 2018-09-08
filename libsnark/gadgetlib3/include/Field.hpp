@@ -11,11 +11,11 @@
 
 namespace gadgetlib
 {
-    template<mp_size_t n, const libff::bigint<n>& modulus>
+    template<typename base_field>
     class Field
     {
     public:
-        using Field_Rep = libff::Fr<libff::mnt4_pp>;
+        using Field_Rep = base_field;
         Field_Rep num_;
 
         Field_Rep elem_from_str(const std::string& hexVal)
@@ -54,26 +54,24 @@ namespace gadgetlib
             {
                 l = hexVal.size() - 1;
                 s_copy = new unsigned char[l];
-                for (size_t i = 1; i < l; ++i)
+                for (size_t i = 1; i < hexVal.size(); ++i)
                 {
-                    s_copy[i] = convert_ch(hexVal[i]);
+                    s_copy[i-1] = convert_ch(hexVal[i]);
                 }
             }
 
 
             mp_size_t limbs_written = mpn_set_str(val.mont_repr.data, s_copy, l, base);
-            assert(limbs_written <= n);
             delete[] s_copy;
-
+            //std::cout << "Output: " << val << std::endl;
 #ifndef MONTGOMERY_OUTPUT
-            val.mul_reduce(Fp_model<n, modulus>::Rsquared);
+            val.mul_reduce(Field_Rep::Rsquared);
 #endif
+            //std::cout << "Output2: " << val << std::endl;
             return val;
         }
 
     public:
-        static constexpr libff::bigint<n>& characteristics = modulus;
-        static constexpr size_t safe_bitsize =  n * GMP_NUMB_BITS;
 
         Field(unsigned long num): num_(Field_Rep::zero())
         {

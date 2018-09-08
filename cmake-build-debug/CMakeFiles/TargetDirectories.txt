@@ -97,6 +97,7 @@
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/Continuous.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/ExperimentalStart.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/Nightly.dir
+/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/console_app.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/test_gadgetlib3.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/gadgetlib1_simple_test.dir
 /home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/CMakeFiles/list_install_components.dir

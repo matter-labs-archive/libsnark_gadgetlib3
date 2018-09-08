@@ -438,6 +438,21 @@ Nightly/fast:
 .PHONY : Nightly/fast
 
 # Convenience name for target.
+libsnark/CMakeFiles/console_app.dir/rule:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libsnark/CMakeFiles/console_app.dir/rule
+.PHONY : libsnark/CMakeFiles/console_app.dir/rule
+
+# Convenience name for target.
+console_app: libsnark/CMakeFiles/console_app.dir/rule
+
+.PHONY : console_app
+
+# fast build rule for target.
+console_app/fast:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/console_app.dir/build.make libsnark/CMakeFiles/console_app.dir/build
+.PHONY : console_app/fast
+
+# Convenience name for target.
 libsnark/CMakeFiles/test_gadgetlib3.dir/rule:
 	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 libsnark/CMakeFiles/test_gadgetlib3.dir/rule
 .PHONY : libsnark/CMakeFiles/test_gadgetlib3.dir/rule
@@ -2279,6 +2294,33 @@ gadgetlib3/sources/hasher.cpp.s:
 	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/snark.dir/build.make libsnark/CMakeFiles/snark.dir/gadgetlib3/sources/hasher.cpp.s
 .PHONY : gadgetlib3/sources/hasher.cpp.s
 
+gadgetlib3/tests/console_app.o: gadgetlib3/tests/console_app.cpp.o
+
+.PHONY : gadgetlib3/tests/console_app.o
+
+# target to build an object file
+gadgetlib3/tests/console_app.cpp.o:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/console_app.dir/build.make libsnark/CMakeFiles/console_app.dir/gadgetlib3/tests/console_app.cpp.o
+.PHONY : gadgetlib3/tests/console_app.cpp.o
+
+gadgetlib3/tests/console_app.i: gadgetlib3/tests/console_app.cpp.i
+
+.PHONY : gadgetlib3/tests/console_app.i
+
+# target to preprocess a source file
+gadgetlib3/tests/console_app.cpp.i:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/console_app.dir/build.make libsnark/CMakeFiles/console_app.dir/gadgetlib3/tests/console_app.cpp.i
+.PHONY : gadgetlib3/tests/console_app.cpp.i
+
+gadgetlib3/tests/console_app.s: gadgetlib3/tests/console_app.cpp.s
+
+.PHONY : gadgetlib3/tests/console_app.s
+
+# target to generate assembly for a file
+gadgetlib3/tests/console_app.cpp.s:
+	cd /home/k/CLionProjects/libsnark/cmake-build-debug && $(MAKE) -f libsnark/CMakeFiles/console_app.dir/build.make libsnark/CMakeFiles/console_app.dir/gadgetlib3/tests/console_app.cpp.s
+.PHONY : gadgetlib3/tests/console_app.cpp.s
+
 gadgetlib3/tests/tests.o: gadgetlib3/tests/tests.cpp.o
 
 .PHONY : gadgetlib3/tests/tests.o
@@ -3283,6 +3325,7 @@ help:
 	@echo "... Continuous"
 	@echo "... ExperimentalStart"
 	@echo "... Nightly"
+	@echo "... console_app"
 	@echo "... test_gadgetlib3"
 	@echo "... gadgetlib1_simple_test"
 	@echo "... list_install_components"
@@ -3451,6 +3494,9 @@ help:
 	@echo "... gadgetlib3/sources/hasher.o"
 	@echo "... gadgetlib3/sources/hasher.i"
 	@echo "... gadgetlib3/sources/hasher.s"
+	@echo "... gadgetlib3/tests/console_app.o"
+	@echo "... gadgetlib3/tests/console_app.i"
+	@echo "... gadgetlib3/tests/console_app.s"
 	@echo "... gadgetlib3/tests/tests.o"
 	@echo "... gadgetlib3/tests/tests.i"
 	@echo "... gadgetlib3/tests/tests.s"

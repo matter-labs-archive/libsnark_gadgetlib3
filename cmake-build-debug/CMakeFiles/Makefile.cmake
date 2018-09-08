@@ -118,6 +118,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "libsnark/CMakeFiles/Continuous.dir/DependInfo.cmake"
   "libsnark/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake"
   "libsnark/CMakeFiles/Nightly.dir/DependInfo.cmake"
+  "libsnark/CMakeFiles/console_app.dir/DependInfo.cmake"
   "libsnark/CMakeFiles/test_gadgetlib3.dir/DependInfo.cmake"
   "libsnark/CMakeFiles/gadgetlib1_simple_test.dir/DependInfo.cmake"
   "libsnark/CMakeFiles/common_routing_algorithms_test.dir/DependInfo.cmake"

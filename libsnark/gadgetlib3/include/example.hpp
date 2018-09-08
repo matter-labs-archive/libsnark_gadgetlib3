@@ -23,18 +23,22 @@ namespace gadgetlib {
             auto iter = std::lower_bound(public_wires.begin(), public_wires.end(), term.index);
             if ((iter == public_wires.end()) || (*iter != term.index))
             {
-                result.add_term(libsnark::variable<X>(term.index + wire_num), term.coeff.num_);
+                auto distance = std::distance(iter, public_wires.end());
+                result.add_term(libsnark::variable<X>(term.index + distance), term.coeff.num_);
             }
             else {
                 auto distance = std::distance(public_wires.begin(), iter);
-                result.add_term(libsnark::variable<X>(distance), term.coeff.num_);
+                result.add_term(libsnark::variable<X>(distance + 1), term.coeff.num_);
             }
         }
-        std::cout << "OLD: " << std::endl;
+       /*std::cout << "OLD: " << std::endl;
         lc.dump();
         std::cout << "NEW: " << std::endl;
         std::cout << result << std::endl;
-        getchar();
+        getchar();*/
+        std::sort(result.terms.begin(), result.terms.end(),
+                [](const libsnark::linear_term<X>& a, const libsnark::linear_term<X>& b) -> bool {
+            return (a.index < b.index);});
         return result;
     }
 
@@ -52,10 +56,14 @@ namespace gadgetlib {
 
         using X = typename FieldT::Field_Rep;
         size_t public_wires_num = pboard.public_wires.size();
-        std::vector<var_index_t> temp_vec(public_wires_num);
-        std::copy(pboard.public_wires.begin(), pboard.public_wires.end(), std::back_inserter(temp_vec));
+        std::vector<var_index_t> temp_vec;
 
+        std::copy(pboard.public_wires.begin(), pboard.public_wires.end(), std::back_inserter(temp_vec));
+        auto size = temp_vec.size();
         libsnark::r1cs_constraint_system<X> constraints;
+        constraints.primary_input_size = (pboard.public_wires.size());
+        constraints.auxiliary_input_size =
+                pboard.assignment.size()  - 1 -  pboard.public_wires.size();
         for (auto& cnstr: pboard.constraints_)
         {
             auto a = convert_linear_combination(cnstr.a_, temp_vec, public_wires_num);
@@ -74,6 +82,23 @@ namespace gadgetlib {
             else
                 auxiliary_input.emplace_back(pboard.assignment[i].num_);
         }
+        /*std::cout <<"sizes of assignment";
+        std::cout  << constraints.primary_input_size << "   "  << constraints.auxiliary_input_size << std::endl;
+        std::cout  << primary_input.size() << "   "  << auxiliary_input.size() << std::endl;
+        std::cout << "is valid?" << std::endl;
+        std::cout << constraints.is_valid() << std::endl;*/
+
+        /*for(auto& elem: primary_input)
+        {
+            std::cout << elem << std::endl;
+        }
+        for(auto& elem: auxiliary_input)
+        {
+            std::cout << elem << std::endl;
+        }*/
+
+        std::cout << "is satisfied?" << std::endl;
+        std::cout << constraints.is_satisfied(primary_input, auxiliary_input);
         auto res = libsnark::r1cs_example<X>(constraints, primary_input, auxiliary_input);
 
         return res;

@@ -13,7 +13,7 @@ set(
 option(
   DEBUG
   "Enable debugging mode"
-  OFF
+  ON
 )
 option(
   LOWMEM
@@ -33,7 +33,7 @@ option(
 option(
   MONTGOMERY_OUTPUT
   "Serialize Fp elements as their Montgomery representations (faster but not human-readable)"
-  ON
+  OFF
 )
 option(
   USE_PT_COMPRESSION
@@ -66,7 +66,7 @@ option(
 option(
   CPPDEBUG
   "Enable debugging of C++ STL (does not imply DEBUG)"
-  OFF
+  ON
 )
 
 option(

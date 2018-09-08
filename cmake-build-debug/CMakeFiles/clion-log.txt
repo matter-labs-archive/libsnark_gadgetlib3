@@ -1,4 +1,4 @@
-/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/k/CLionProjects/libsnark
+/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DDEBUG=ON -DCPPDEBUG=ON -DMONTGOMERY_OUTPUT=OFF -G "CodeBlocks - Unix Makefiles" /home/k/CLionProjects/libsnark
 CMake Warning (dev) at CMakeLists.txt:3 (project):
   Policy CMP0048 is not set: project() command manages VERSION variables.
   Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy

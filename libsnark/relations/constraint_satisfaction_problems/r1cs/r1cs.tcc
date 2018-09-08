@@ -112,6 +112,7 @@ bool r1cs_constraint_system<FieldT>::is_valid() const
               constraints[c].b.is_valid(this->num_variables()) &&
               constraints[c].c.is_valid(this->num_variables())))
         {
+            std::cout << "false assignment" << std::endl;
             return false;
         }
     }

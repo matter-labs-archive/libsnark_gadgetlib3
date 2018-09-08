@@ -345,7 +345,7 @@ COVERAGE_COMMAND:FILEPATH=/usr/bin/gcov
 COVERAGE_EXTRA_FLAGS:STRING=-l
 
 //Enable debugging of C++ STL (does not imply DEBUG)
-CPPDEBUG:BOOL=OFF
+CPPDEBUG:BOOL=ON
 
 //How many times to retry timed-out CTest submissions.
 CTEST_SUBMIT_RETRY_COUNT:STRING=3
@@ -366,7 +366,7 @@ CVS_UPDATE_OPTIONS:STRING=-d -A -P
 DART_TESTING_TIMEOUT:STRING=1500
 
 //Enable debugging mode
-DEBUG:BOOL=OFF
+DEBUG:BOOL=ON
 
 //Optionally specify the dependency installation directory relative
 // to the source directory (default: inside dependency folder)
@@ -422,13 +422,10 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Serialize Fp elements as their Montgomery representations (faster
 // but not human-readable)
-MONTGOMERY_OUTPUT:BOOL=ON
+MONTGOMERY_OUTPUT:BOOL=OFF
 
 //Enable parallelized execution, using OpenMP
 MULTICORE:BOOL=OFF
-
-//Use new gadgetlib
-NEWGADGETLIB:BOOL=ON
 
 //Override C++ compiler optimization flags
 OPT_FLAGS:STRING=

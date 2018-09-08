@@ -47,14 +47,37 @@ void check(const gadget& gadget)
     std::cout << "number of constraints: " << example.constraint_system.size() << std::endl;
     std::cout << "satisfied: " << example.check_assignment() << std::endl;
     //example.dump();
-    getchar();
+    //getchar();
 }
 
 void check_addition()
 {
-    gadget input(0x12345677, 32, false);
+    gadget input(0x12345678, 32, false);
     gadget result(0xf0e21567, 32, true);
     gadget const_gadget(0xdeadbeef, 32);
+    gadget comparison = ((input  + const_gadget) == result);
+    check(comparison);
+}
+
+void check_two_wires()
+{
+    gadget input(0x12345678, 32, true);
+    gadget result(0xf0e21567, 32, true);
+    gadget const_gadget(0xdeadbeef, 32);
+    gadget comparison = ((input  + const_gadget) == result);
+    check(comparison);
+}
+
+
+void check_field_addition()
+{
+    gadget input_raw(0x12345678, 32, false);
+    gadget result_raw(0xf0e21567, 32, true);
+    gadget const_gadget_raw(0xdeadbeef, 32);
+
+    gadget input =TO_FIELD(input_raw);
+    gadget result = TO_FIELD(result_raw);
+    gadget const_gadget = TO_FIELD(const_gadget_raw);
     gadget comparison = ((input  + const_gadget) == result);
 
     check(comparison);
@@ -187,10 +210,20 @@ void check_common_prefix_mask()
     check(comparison);
 }
 
+void check_binary_input()
+{
+    std::string str ="b101";
+    gadget str_input(str, 4, false);
+    gadget result(5, 4);
+    gadget comparison = (str_input == result);
+
+    check(comparison);
+}
+
 
 void check_battleship_field()
 {
-    BattleshipGameParams game_params{ 7, 7, 4, 4, 2, 0 };
+    BattleshipGameParams game_params{ 7, 7, 4, 3, 2, 0 };
 
     std::string valid_battlefield = "b"
                                     "1010110"
@@ -217,7 +250,7 @@ void check_battleship_field()
                                              "0000101"
                                              "1110001"
                                              "0000100"
-                                             "1100010";
+                                             "0000010";
 
     std::string str_refs[3] = {valid_battlefield, first_invalid_battlefield,
                                second_invalid_battlefield };
@@ -246,10 +279,25 @@ void construct_proof()
 
     const bool test_serialization = false;
 
-    gadget input(0x12345678, 32, false);
-    gadget result(0xf0e21567, 32, true);
-    gadget const_gadget(0xdeadbeef, 32);
-    gadget comparison = ((input  + const_gadget) == result);
+    BattleshipGameParams game_params{ 10, 10, 4, 3, 2, 1 };
+
+    std::string valid_battlefield = "b"
+                                    "1010110000"
+                                    "0000000000"
+                                    "0110101000"
+                                    "0000101000"
+                                    "1110001000"
+                                    "0000100000"
+                                    "0100000000"
+                                    "0000000000"
+                                    "0111100000"
+                                    "0000000000";
+
+    std::string salt = "super_secret_salt";
+
+
+    gadget battlefield(valid_battlefield, 10 * 10, false);
+    gadget comparison = check_battleship_field(battlefield,  game_params);
 
     auto pboard = protoboard<field>();
     auto annealing = engraver();
@@ -263,10 +311,16 @@ void construct_proof()
     assert(bit);
 
     libff::print_header("(leave) Test R1CS GG-ppzkSNARK");
+
+
 }
+
+
 
 void test_all()
 {
+    std::cout << "chech binary input" << std::endl;
+    check_binary_input();
     std::cout << "chech addition" << std::endl;
     check_addition();
     std::cout << "chech concat-extract" << std::endl;
@@ -302,6 +356,6 @@ int main(int argc, char* argv[])
     libff::edwards_pp::init_public_params();
     libff::mnt4_pp::init_public_params();
     construct_proof();
-    test_all();
-    getchar();
+    //test_all();
+    //getchar();
 }

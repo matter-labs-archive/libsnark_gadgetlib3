@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d3b65/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d3b65.dir/build.make CMakeFiles/cmTC_d3b65.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5edb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5edb7.dir/build.make CMakeFiles/cmTC_5edb7.dir/build
 make[1]: Entering directory '/home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d3b65.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d3b65.dir/CheckSymbolExists.c.o   -c /home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_d3b65
-/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b65.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d3b65.dir/CheckSymbolExists.c.o  -o cmTC_d3b65 
-CMakeFiles/cmTC_d3b65.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_5edb7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5edb7.dir/CheckSymbolExists.c.o   -c /home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5edb7
+/home/k/Desktop/clion-2018.2.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5edb7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5edb7.dir/CheckSymbolExists.c.o  -o cmTC_5edb7 
+CMakeFiles/cmTC_5edb7.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d3b65.dir/build.make:86: recipe for target 'cmTC_d3b65' failed
-make[1]: *** [cmTC_d3b65] Error 1
+CMakeFiles/cmTC_5edb7.dir/build.make:86: recipe for target 'cmTC_5edb7' failed
+make[1]: *** [cmTC_5edb7] Error 1
 make[1]: Leaving directory '/home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_d3b65/fast' failed
-make: *** [cmTC_d3b65/fast] Error 2
+Makefile:121: recipe for target 'cmTC_5edb7/fast' failed
+make: *** [cmTC_5edb7/fast] Error 2
 
 File /home/k/CLionProjects/libsnark/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

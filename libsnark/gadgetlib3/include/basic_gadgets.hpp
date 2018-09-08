@@ -432,6 +432,15 @@ namespace gadgetlib
 
         return check;
     }
+
+    gadget check_battleship_game_setup(const gadget& battlefield, const BattleshipGameParams& game_params,
+            const gadget& salt, const gadget& commitment)
+    {
+        gadget check_field = check_battleship_field(battlefield, game_params);
+        gadget check_commitment = (sha256_gadget(battlefield || salt) == commitment);
+
+        return ALL(check_field, check_commitment);
+    }
 }
 
 #endif

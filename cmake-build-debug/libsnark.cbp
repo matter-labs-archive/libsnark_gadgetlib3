@@ -116,8 +116,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -148,8 +150,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -180,8 +184,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -212,8 +218,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -244,8 +252,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googlemock"/>
@@ -277,8 +287,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googlemock"/>
@@ -310,8 +322,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googlemock/include"/>
@@ -343,8 +357,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googlemock/include"/>
@@ -376,8 +392,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googletest/include"/>
@@ -407,8 +425,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googletest/include"/>
@@ -438,8 +458,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googletest"/>
@@ -469,8 +491,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/gtest/googletest"/>
@@ -500,8 +524,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -533,8 +559,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -566,8 +594,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -599,8 +629,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -632,8 +664,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -667,8 +701,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -702,8 +738,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -737,8 +775,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -772,8 +812,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -807,8 +849,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/ate-pairing/include"/>
@@ -853,6 +897,74 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="console_app">
+				<Option output="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/console_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCURVE_BN128"/>
+					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DBINARY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
+					<Add option="-DUSE_ASM"/>
+					<Add directory="/home/k/CLionProjects/libsnark/."/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libfqfft"/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libff/libff/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 console_app"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="console_app/fast">
+				<Option output="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/console_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCURVE_BN128"/>
+					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-DBINARY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
+					<Add option="-DUSE_ASM"/>
+					<Add directory="/home/k/CLionProjects/libsnark/."/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libfqfft"/>
+					<Add directory="/home/k/CLionProjects/libsnark/depends/libff/libff/.."/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 console_app/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test_gadgetlib3">
 				<Option output="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark/test_gadgetlib3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/k/CLionProjects/libsnark/cmake-build-debug/libsnark"/>
@@ -862,8 +974,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -894,8 +1008,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -926,8 +1042,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -959,8 +1077,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -992,8 +1112,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1024,8 +1146,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1056,8 +1180,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1088,8 +1214,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1120,8 +1248,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1152,8 +1282,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1184,8 +1316,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1216,8 +1350,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1248,8 +1384,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1280,8 +1418,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1312,8 +1452,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1344,8 +1486,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1376,8 +1520,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1409,8 +1555,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1452,8 +1600,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1484,8 +1634,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1516,8 +1668,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1548,8 +1702,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1580,8 +1736,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1612,8 +1770,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1644,8 +1804,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1676,8 +1838,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1708,8 +1872,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1740,8 +1906,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1772,8 +1940,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1804,8 +1974,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1836,8 +2008,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1868,8 +2042,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1900,8 +2076,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1932,8 +2110,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1964,8 +2144,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -1996,8 +2178,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2028,8 +2212,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2060,8 +2246,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2092,8 +2280,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2125,8 +2315,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2158,8 +2350,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2190,8 +2384,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2222,8 +2418,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2254,8 +2452,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2286,8 +2486,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2318,8 +2520,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2350,8 +2554,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2382,8 +2588,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2414,8 +2622,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2446,8 +2656,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2478,8 +2690,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2510,8 +2724,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2542,8 +2758,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2574,8 +2792,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2606,8 +2826,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2638,8 +2860,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2670,8 +2894,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2702,8 +2928,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2734,8 +2962,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2766,8 +2996,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2798,8 +3030,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2830,8 +3064,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2862,8 +3098,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2895,8 +3133,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2928,8 +3168,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2960,8 +3202,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -2992,8 +3236,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3024,8 +3270,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3056,8 +3304,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3089,8 +3339,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3122,8 +3374,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3154,8 +3408,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3186,8 +3442,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3219,8 +3477,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3252,8 +3512,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3285,8 +3547,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3318,8 +3582,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3350,8 +3616,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3382,8 +3650,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3414,8 +3684,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3446,8 +3718,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3478,8 +3752,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3510,8 +3786,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3542,8 +3820,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3574,8 +3854,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3606,8 +3888,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3638,8 +3922,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3670,8 +3956,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3702,8 +3990,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3734,8 +4024,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3766,8 +4058,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3798,8 +4092,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3830,8 +4126,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3862,8 +4160,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3894,8 +4194,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -3926,8 +4228,10 @@
 				<Compiler>
 					<Add option="-DCURVE_BN128"/>
 					<Add option="-DBN_SUPPORT_SNARK=1"/>
+					<Add option="-DDEBUG=1"/>
 					<Add option="-DBINARY_OUTPUT"/>
-					<Add option="-DMONTGOMERY_OUTPUT"/>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GLIBCXX_DEBUG_PEDANTIC"/>
 					<Add option="-DUSE_ASM"/>
 					<Add directory="/home/k/CLionProjects/libsnark/."/>
 					<Add directory="/home/k/CLionProjects/libsnark/depends/libff"/>
@@ -4528,6 +4832,9 @@
 		</Unit>
 		<Unit filename="/home/k/CLionProjects/libsnark/libsnark/gadgetlib3/sources/hasher.cpp">
 			<Option target="snark"/>
+		</Unit>
+		<Unit filename="/home/k/CLionProjects/libsnark/libsnark/gadgetlib3/tests/console_app.cpp">
+			<Option target="console_app"/>
 		</Unit>
 		<Unit filename="/home/k/CLionProjects/libsnark/libsnark/gadgetlib3/tests/tests.cpp">
 			<Option target="test_gadgetlib3"/>
